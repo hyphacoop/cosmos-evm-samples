@@ -36,15 +36,15 @@ CONTRACT_ADDR=<"Deployed to" address>
 
 ## Execute
 
-* Deposit funds to the contract
+### Deposit funds to the contract
 ```
 cast send $CONTRACT_ADDR 'deposit()' --value 1000000000000 --private-key $ETH_PRIV_KEY 
 ```
-* Query the contract balance
+### Query the contract balance
 ```
 cast call $CONTRACT_ADDR 'getBalance()' --private-key $ETH_PRIV_KEY
 ```
-* Withdraw funds from the contract
+### Withdraw funds from the contract
 ```
 cast send $CONTRACT_ADDR "withdrawTo(address)" <recipient address> --private-key $ETH PRIV_KEY
 ```
