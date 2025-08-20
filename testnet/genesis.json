@@ -132,10 +132,6 @@
     "erc20": {
       "params": {
         "enable_erc20": true,
-        "native_precompiles": [
-          "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
-        ],
-        "dynamic_precompiles": [],
         "permissionless_registration": true
       },
       "token_pairs": [
@@ -146,7 +142,11 @@
           "enabled": true
         }
       ],
-      "allowances": []
+      "allowances": [],
+      "dynamic_precompiles": [],
+      "native_precompiles": [
+          "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+        ]
     },
     "evidence": {
       "evidence": []

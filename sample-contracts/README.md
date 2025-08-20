@@ -29,7 +29,7 @@ https://faucet.polypore.xyz/request?address=<wallet_address>&chain=test-evm-1
 [rpc_endpoints]
 cosmos = "https://rpc.sentry-01.evm.polypore.xyz:443"
 [profile.default]
-chain_id     = 4221
+chain_id     = 262144
 eth_rpc_url  = "https://evmrpc.sentry-01.evm.polypore.xyz:443"
-evm_version  = "istanbul"
+evm_version  = "cancun"
 ```
