@@ -5,9 +5,9 @@ The public testnet provides a test environment for the latest cosmos/evm tag.
 
 * **Chain ID**: `test-evm-1`
 * **Denom**: `atest`
-* **Current version**: [`v1.0.0-rc2`](https://github.com/cosmos/evm/releases/tag/v1.0.0-rc2)
+* **Current version**: [`v0.4.1`](https://github.com/cosmos/evm/releases/tag/v0.4.1)
 * **Genesis file:**  [genesis.json](genesis.json), verify with ` shasum -a 256 genesis.json`
-* **Genesis sha256sum**: `bbf4b1cf6f227c3516e03c2d99506f5cc4362fdbc1a09c6c9f334c9f658c6435`
+* **Genesis sha256sum**: `1b70d313fb495fc3dd5d786e6b74a7615d7098f73a3f33dbdfab5179e655671f`
 
 ## How to Join
 
