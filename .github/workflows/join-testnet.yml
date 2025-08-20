@@ -4,12 +4,14 @@ name: Join EVM Testnet
 on:
   workflow_dispatch:
   schedule:
-    # At 14:30 on Tuesday and Thursday.
-    - cron: '30 14 * * 2,4'
+    # At 14:30 on Wednesday.
+    - cron: '30 14 * * 3'
   pull_request:
     paths:
     - testnet/join-evm.sh
     - .github/workflows/join-evm.yml
+  push:
+  
 
 jobs:
   test-sync:
