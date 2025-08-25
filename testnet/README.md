@@ -16,6 +16,12 @@ The [script](./join-evm.sh) provided in this repo will install an evmd service o
 * The script will build a binary from the cosmos/evm repo.
 * The script will sync via state sync.
 
+## Block Explorers
+
+* [Cosmos](https://explorer.polypore.xyz/test-evm-1) (Ping.pub)
+* [EVM](https://evm.explorer.polypore.xyz/) (Blockscout)
+
+
 ## Endpoints
 
 ### Peers
